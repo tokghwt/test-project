@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "The test of creating repository",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint --config eslint/.eslintrc.js --ext .js lib/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tokghwt/test-project.git"
@@ -20,5 +22,8 @@
   ],
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0"
   }
 }
