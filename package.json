@@ -1,0 +1,24 @@
+{
+  "name": "test-project",
+  "version": "0.0.0",
+  "description": "The test of creating repository",
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokghwt/test-project.git"
+  },
+  "keywords": [],
+  "author": "tokghwt <tokghwt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tokghwt/test-project/issues"
+  },
+  "homepage": "https://github.com/tokghwt/test-project#readme",
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
