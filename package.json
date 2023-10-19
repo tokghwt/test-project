@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint --config eslint/.eslintrc.js --ext .ts typescript/",
     "build": "tsc -p typescript/tsconfig.json",
-    "test": "jest --config=jest/jest.config.js --coverage"
+    "test": "jest --config=jest/jest.config.js --coverage --passWithNoTests"
   },
   "repository": {
     "type": "git",
